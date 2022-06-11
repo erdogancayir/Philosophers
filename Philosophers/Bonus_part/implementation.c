@@ -35,7 +35,7 @@ void	philo_sleep(t_phis *philo)
 
 	all = philo->link;
 	print(philo->id, "\033[0;94mSleeping", philo->link);
-	pass_the_time(all->time_sleep, all);
+	pass_the_time(all->time_sleep, all); 
 }
 
 void	philo_think(t_phis *philo)
